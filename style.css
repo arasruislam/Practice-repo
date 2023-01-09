@@ -11,7 +11,34 @@
 /* Font: font-family: 'Work Sans', sans-serif; */
 /* Font: font-family:  Gumela,sans-serif;  */
 
+/* cricket Transition Style */
 
+/* .battlefield {
+    width: 992px;
+    border: 1px solid darkred;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: crimson;
+    position: relative;
+    left: 385px;
+    bottom: 60px;
+    transition: transform 0.7s ease-out 0.5s;
+}
+.bat {
+    transition: transform 0.5s ease-in;
+}
+.battlefield:hover .bat {
+    transform: rotate(-60deg);
+    transform-origin: top bottom;
+}
+.battlefield:hover .ball {
+    transform: translate(650px, -200px);
+} */
+
+/* End Of Cricket Transition Style */
 
 
 
