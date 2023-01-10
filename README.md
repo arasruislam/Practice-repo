@@ -18,3 +18,11 @@ Study Item:
 6. Animation-practice-website. [cssanimation.io](http://cssanimation.io/)
 7. CSS Custom Properties (also use of var, calc, visibility hidden vs display). [References](https://css-tricks.com/a-complete-guide-to-custom-properties/)
 8. Devtool
+
+## Day: 08/01/2022, Monday
+
+Study Item:
+
+1. CSS Flex-box. [Reference-1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [Practice-Site](https://flexboxfroggy.com/)
+2. Grid Layout. [Reference-1](https://css-tricks.com/snippets/css/complete-guide-grid/), [Reference-2](https://learncssgrid.com/), [Gird-Practice](https://cssgridgarden.com/)
+3. Media Query. [Reference-1](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries), [Reference-2](https://css-tricks.com/a-complete-guide-to-css-media-queries/), [Reference-3](https://stackdiary.com/css-media-queries/)
