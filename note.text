@@ -1,2 +1,9 @@
-CSS Flex-box--
+--7 Thing Need To Know For Responsive Website:
+1. Meta Viewport Tag
+2. CSS Relative  Units (em/rem/....)
+3. Responsive Image (Fluid Image)
+4. Body max-width and margin auto
+5. Responsive Split screen using Flex (2 column section)
+6. Grid Responsive (Multi column)
+7. Responsive Menu
 
