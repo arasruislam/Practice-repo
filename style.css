@@ -41,10 +41,49 @@
 /* End Of Cricket Transition Style */
 
 
+/* Grid Layout */
 
-/* Create Calender Using Grid Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(15, 27, 27);
+}
+.it-1 {
+    grid-area: header;
+}
+.it-2 {
+    grid-area: main;
+}
+.it-3 {
+    grid-area: sidebar;
+}
+.it-4 {
+    grid-area: footer;
+}
+.container {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 5px;
+    /* grid-template-columns: auto 150px auto 300px; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "main   main   main sidebar"
+    "footer footer footer footer";
+}
 
-
+.items {
+    /* grid-column-start: 2; */
+    height: 150px;
+    /* width: 200px; */
+    background-color: darkcyan;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
 
 
 

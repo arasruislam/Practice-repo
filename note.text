@@ -1,3 +1,18 @@
+-----Animation Properties-----
+_animation-name
+_animation-duration
+_animation-timing-function
+_animation-delay
+_animation-direction
+_animation-iteration
+_animation-fill-mode
+_animation-play-state
+
+=>shortcut: 
+[name] [duration] [timing-function] [delay] [iteration] [direction] [fill-mode] [play-state];
+
+
+
 --7 Thing Need To Know For Responsive Website:
 1. Meta Viewport Tag
 2. CSS Relative  Units (em/rem/....)
@@ -6,4 +21,3 @@
 5. Responsive Split screen using Flex (2 column section)
 6. Grid Responsive (Multi column)
 7. Responsive Menu
-
