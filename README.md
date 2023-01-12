@@ -44,8 +44,8 @@ Study Item:
 ### Child Properties
 
 1. grid-column-start | grid-column-end | grid-row-start | grid-row-end
-2. grid-column | grid-row
-3. grid-area-- Shorthand [grid-row-start] [grid-column-start] [grid-row-end] [grid-column-end]
+2. grid-column-- Shorthand __[grid-column-start / grid-column-end]__ | grid-row-- Shorthand __[grid-row-start / grid-row-end]__
+3. grid-area-- Shorthand __[grid-row-start]__ __[grid-column-start]__ __[grid-row-end]__ __[grid-column-end]__
 4. justify-self | align-self | place-self
 5. The repeat()
 
