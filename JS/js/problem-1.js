@@ -7,7 +7,10 @@
  * */
 
 var totalMoney = 1000;
-var totalCostOfFruits = 700;
+var orangesPrice = 400;
+var applePrice = 300
+
+var totalCostOfFruits = orangesPrice + applePrice;
 
 var shopkeeperReturnMoney = totalMoney - totalCostOfFruits;
 
@@ -32,7 +35,7 @@ var totalMark = mathematicsMark + biologyMark + chemistryMark + physicsMark + ba
 
 var averageMark = totalMark / 5;
 
-console.log(averageMark); // result 71.03999999999999
+console.log(averageMark.toFixed(2)); // result 71.04
 
 
 // !Problem 03
