@@ -15,3 +15,9 @@
 * unshift() -- কোন array এর প্রথমে কোন উপাদান যোগ করে এবং নতুন array প্রদান করে।
 
 3.[Condition](https://www.tutorialrepublic.com/javascript-tutorial/javascript-if-else-statements.php)
+
+4.[Loop](https://www.tutorialrepublic.com/javascript-tutorial/javascript-loops.php)
+
+5.[Function](https://www.tutorialrepublic.com/javascript-tutorial/javascript-functions.php)
+
+6.[Object](https://www.tutorialrepublic.com/javascript-tutorial/javascript-objects.php)
