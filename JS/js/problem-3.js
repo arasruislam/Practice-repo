@@ -2,14 +2,6 @@
 /**
  * @param Question_Summary:- একটা ফাংশন লিখবা যেটা ১৩ এর নামতা (multiplication table) আউটপুট হিসেবে দেখাবে। 
  * */
-
-
-
-// !Problem 02
-/**
- * @param Question_Summary:- একটা ফাংশন লিখবা যেটা যেকোন নামকে uppercase বা রেগুলার কেইস হিসেবে নিবে আর আউটপুট হিসেবে সেই নাম lowercase করে রিটার্ন করবে।
- * */
-
 function getNamota(value) {
    for (let i = 1; i <= 10; i++) {
       let result = value * i;
@@ -22,6 +14,22 @@ const result = getNamota(13);
 console.log(result);
 
 console.log("----------------------------------------");
+
+
+// !Problem 02
+/**
+ * @param Question_Summary:- একটা ফাংশন লিখবা যেটা যেকোন নামকে uppercase বা রেগুলার কেইস হিসেবে নিবে আর আউটপুট হিসেবে সেই নাম lowercase করে রিটার্ন করবে।
+ * */
+
+function getLowercase(str) {
+   let lowercase = str.toLowerCase();
+   return lowercase;
+}
+
+let pushName = getLowercase('ASHRAFUL ISLAM');
+console.log(pushName);
+console.log("----------------------------------------");
+
 
 // !Problem 03
 /**
