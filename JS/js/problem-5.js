@@ -110,7 +110,7 @@ function getFahrenheit (celsius) {
 }
 
 const sendCelsius = getFahrenheit(36);
-console.log("Temperature today is: ",sendCelsius, "F");
+console.log("the temperature in fahrenheit scale: ",sendCelsius,"F");
 console.log('--------------------------------------');
 
 // ! Problem 11
@@ -118,6 +118,13 @@ console.log('--------------------------------------');
  * একইভাবে উল্টা হিসাব করবে। যাতে তোমাকে ফারেনহাইট হিসেবে তাপমাত্রা দিলে সেটাকে সেলসিয়াস এ কনভার্ট করে আউটপুট দিবে। 
  *  */
 
+function getCelsius(farhanheit) {
+    const celsius = (5 * (farhanheit - 32)) / 9;
+    return celsius;
+}
+const sendFarhanheit = getCelsius(96.8);
+console.log("the temperature in celsius scale: ", sendFarhanheit,"C");
+console.log('--------------------------------------');
 
 // ! Problem 12
 /**
