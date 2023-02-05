@@ -11,6 +11,11 @@
  * 
 */
 
+/** 
+ * ? Array
+ * * Array.inArray(), includes(), slice(), splice()
+ * 
+*/
 
 
 
@@ -60,20 +65,3 @@
 
 //------------------------------------------------------------>
 
-// function minInArray(numbers) {
-//     let smallest = numbers[0];
-//     for (let i = 0; i < numbers.length; i++) {
-//         const index = i;
-//         const element = numbers[index];
-//         // console.log(element);
-
-//         if (element < smallest) {
-//             smallest = element;
-//         }
-//     }
-//     return smallest;
-// }
-
-// const arr = [143, 64, 754, 232, 36, 59, 32, 61, 12];
-// const smallest = minInArray(arr);
-// console.log(smallest);

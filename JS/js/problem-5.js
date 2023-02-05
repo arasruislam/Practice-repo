@@ -49,20 +49,39 @@ console.log('--------------------------------------');
 
  *  */
 
-function reUse(params) {
-    
+function reUse(getname) {
+    const chest = {
+        name: "Chest",
+        age: 29,
+        profession: "Front-end Developer",
+        experiences: 2,
+    }
+    const bicep = {
+        name: "Bicep",
+        age: 26,
+        profession: "Back-end Developer",
+        experiences: 1,
+    }
+    const tricep = {
+        name: "Tricep",
+        age: 30,
+        profession: "Full Stack Developer",
+        experiences: 5,
+    }
+
+    if (getname === "chest") {
+        return chest;
+    } else if (getname === "bicep"){
+        return bicep;
+    } else if (getname === "tricep") {
+        return tricep;
+    } else {
+        return "please pick the name chest, bicep or tricep";
+    }
 }
-
-// ! Problem 06
-/**
- * উপরের  এই  অবজেক্ট  থেকে  তোমার  প্রিয় মানুষটির ফ্রিয়ান্ডলিস্ট চেক  করে  দেখো । কত  জন ফ্রেন্ড  আছে ?
- *  */
-
-
-// ! Problem 07
-/**
- * এখন  দেখো ফ্রিয়ান্ডলিস্ট এ   কতজন ছেলে  ফ্রেন্ড  আছে ?
- *  */
+let workoutPlan = reUse("he");
+console.log(workoutPlan);
+console.log('--------------------------------------');
 
 
 // ! Problem 08
@@ -98,6 +117,35 @@ console.log('--------------------------------------');
  * এখন  তুমি  যদি ২৫ দিন  থাকো  তাহলে  ভাড়া  কত  টাকা  আসবে ?
  *  */
 
+function dayCost(day) {
+    const firstTenDaysCost = 500;
+    const secondTenDaysCost = 300;
+    const aboveTweentyDaysCost = 100;
+
+    let totalCost = "";
+    if (day <= 10) {
+        let tenDaysCost = firstTenDaysCost * day;
+        totalCost = tenDaysCost;
+    } else if (day > 10 && day <= 20) {
+        let startingTenDaysCost = firstTenDaysCost * 10;
+        let costOfSecondTenDays = (day - 10) * secondTenDaysCost;
+        let tweentyDaysCost = startingTenDaysCost + costOfSecondTenDays;
+        totalCost = tweentyDaysCost;
+    } else {
+        let costOfFirstTenDays = firstTenDaysCost * 10;
+        let costOfSecondTenDays = secondTenDaysCost * 10;
+        let leftDaysCost = (day - 20) * aboveTweentyDaysCost;
+
+        let aboveDaysCost = costOfFirstTenDays + costOfSecondTenDays + leftDaysCost;
+        totalCost = aboveDaysCost;
+    }
+    return totalCost;
+}
+
+const day = dayCost(36);
+console.log(day);
+console.log('--------------------------------------');
+
 
 // ! Problem 10
 /**
@@ -131,8 +179,41 @@ console.log('--------------------------------------');
  * কেউ ১০০ এর মধ্যে কত মার্ক্স্ পেয়েছে সেটা তোমাকে বলে দিবে। তুমি একটা ফাংশন দিয়ে বলে দিবে সে এ+ পাবে নাকি অন্য কোন গ্রেড পাবে। 
  *  */
 
+function gradeMarks(mark) {
+    switch (mark) {
+        case (mark >= 100):
+            console.log("Your got A+");
+            break;
+        case (mark < 80 && mark >= 70):
+            console.log("Your got A");
+            break;
+        case (mark < 70 && mark >= 60):
+            console.log("Your got A-")
+            break;
+        case (mark < 60 && mark >= 50):
+            console.log("Your got B");
+            break;
+        case (mark < 50 && mark >= 40):
+            console.log("Your got C");
+            break;
+        case (mark < 40 && mark >= 33):
+            console.log("Your got D");
+            break;
+        case (mark < 33):
+            console.log("Your fail in the exam");
+            break;
+        default:
+            return "you are fail";
+    }
+}
+
+const myMarks = gradeMarks(18);
+console.log(myMarks);
+console.log('--------------------------------------');
 
 // ! Problem 13
 /**
- * সুদের হিসাব করবে। জাস্ট হিসাব কেমনে করতে হয়। সেই চিন্তায় করবে। সুদ ভালো না খারাপ সেটা এখন চিন্তা করার দরকার নাই। জাস্ট একটা ফর্মুলা থাকলে সেটা কিভাবে কোড এ লিখতে হয় সেই এঙ্গেল থেকে করার চেষ্টা করো। 
- *  */
+ * সুদের হিসাব করবে। জাস্ট হিসাব কেমনে করতে হয়। সেই চিন্তায় করবে। সুদ ভালো না খারাপ সেটা এখন চিন্তা করার দরকার নাই। জাস্ট একটা ফর্মুলা থাকলে সেটা কিভাবে কোড এ লিখতে হয় সেই এঙ্গেল থেকে করার চেষ্টা করো। 100 টাকা জমা করেন যা প্রতি বছর 7% সহজ সুদ দেয়
+ * */
+
+
