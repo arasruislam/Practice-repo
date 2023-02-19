@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>JS - Study</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="corporate">
+      <div class="navlist">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <button onclick="makeGray()">Contact Now</button>
+        </ul>
+      </div>
+      <div class="devdas">
+        <h1>I am Asru Islam</h1>
+        <p>I love some one and i want her as a wife</p>
+        <h3>get more info,</h3>
+        <button id="make-red">Click Me</button>
+        <button id="make-green">Green</button>
+      </div>
+    </div>
 
+    <div>
+      <h1>Final Handle Event</h1>
+      <button>Handle The Event</button>
+    </div>
+
+    <div>
+      <h1>Final DOM Event Handler</h1>
+      <h3 id="handle-status">default Text</h3>
+      <button onclick="handleClickEvent()">Onclick Function call</button>
+      <button id="event-listener">Handle By addEventListener</button>
+    </div>
     <!-- Script -->
     <script src="./main.js"></script>
-</body>
+    <script>
+      // options 1
+      function handleClickEvent() {
+        const handleStatus = document.getElementById("handle-status");
+        handleStatus.innerText = "I am change by function";
+      }
+      // options 2
+      document
+        .getElementById("event-listener")
+        .addEventListener("click", function () {
+          const addHandleStatus = document.getElementById("handle-status");
+          addHandleStatus.innerText = "I am change because of AddEventListener";
+        });
+    </script>
+  </body>
 </html>
