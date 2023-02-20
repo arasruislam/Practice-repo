@@ -11,22 +11,22 @@
  * * clear the input field
  */
 
-document.getElementById("btn-withdraw").addEventListener('click', function () {
-  const newWithdrawAmount = getInputFieldValueById("withdraw-amount");
+// document.getElementById("btn-withdraw").addEventListener('click', function () {
+//   const newWithdrawAmount = getInputFieldValueById("withdraw-amount");
 
-  const previousWithdrawTotal = getTextElementValueById("total-withdraw");
+//   const previousWithdrawTotal = getTextElementValueById("total-withdraw");
 
-  const newWithdrawTotal = previousWithdrawTotal + newWithdrawAmount;
+//   const newWithdrawTotal = previousWithdrawTotal + newWithdrawAmount;
 
-  setElementValueById("total-withdraw", newWithdrawTotal);
+//   setElementValueById("total-withdraw", newWithdrawTotal);
 
-  const previousBalanceTotal = getTextElementValueById("total-balance");
-  const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
+//   const previousBalanceTotal = getTextElementValueById("total-balance");
+//   const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
 
-  setElementValueById("total-balance", newBalanceTotal);
-});
+//   setElementValueById("total-balance", newBalanceTotal);
+// });
 
-/* 
+
 // step 1
 document.getElementById("btn-withdraw").addEventListener("click", function () {
   // step 2
@@ -61,5 +61,3 @@ document.getElementById("btn-withdraw").addEventListener("click", function () {
   // step 8
   totalBalanceAmount.innerText = currentBalance;
 });
-
-*/
