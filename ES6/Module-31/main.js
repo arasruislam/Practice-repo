@@ -16,5 +16,5 @@
  * template string
  * arrow function
  * spread operator
- * array object destruction
+ * array object Destructuring
 */
