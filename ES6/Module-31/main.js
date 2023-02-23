@@ -8,3 +8,13 @@
  * কোন একটা ফাংশনে এর প্যারামিটার ভ্যালু না দিলে কিভাবে ডিফল্ট প্যারামিটার দিতে হয় 
  * অনেক লাইন ওয়ালা arrow ফাংশন কিভাবে লিখতে হয়। আর কিভাবে সেটা থেকে রিটার্ন করতে হয় 
 */
+
+
+/** 
+ * Let Const
+ * function default parameter
+ * template string
+ * arrow function
+ * spread operator
+ * array object destruction
+*/
