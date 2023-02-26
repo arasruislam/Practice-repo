@@ -4,3 +4,9 @@
  * 
 */
 
+/*
+1. fetch api by URL
+2. promise by response
+3. get Data
+4. METHOD: PUT, GET, POST, PATCH, DELETE, CRUD 
+*/
