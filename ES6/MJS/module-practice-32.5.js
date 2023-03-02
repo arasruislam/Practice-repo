@@ -58,6 +58,7 @@ let data = [
 
 // console.log(data[3]?.pHeroCourses["course-xyz"], (data[3]?.locationField["en-US"]?.lon));
 
+/* 
 let activities = {
   activity1: [
     {
@@ -79,3 +80,37 @@ let activities = {
     },
   ],
 };
+*/
+// How will you get the output | a) abc | b) xyz
+// console.log(activities.activity1[0].song_list.song_1);
+// console.log(activities.activity1[1].song_list.song_2);
+
+/* 
+let students = {
+  2222: {
+    name: "Jack",
+    section: "C",
+    class: "IX",
+    address: {
+      "building no": 12,
+      street: "St. Jonson",
+      city: "Petersburg",
+      country: "UK",
+    },
+  },
+  3333: {
+    name: "Herry",
+    section: "D",
+    class: "X",
+    address: {
+      "building no": 85,
+      street: "DC road",
+      city: "Kachukhet",
+      country: "Bangladesh",
+    },
+  },
+};
+*/
+// 4) How will you display | a) Petersburg | b) Herry
+// console.log(students[2222]?.address?.city);
+// console.log(students[3333]?.name);
