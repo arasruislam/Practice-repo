@@ -16,9 +16,18 @@
 /* 
 ? Type Of Error
 * 
-* syntax error
+* syntax error 
+The Javascript SyntaxError is caused by the incorrect use of a pre-defined syntax. Syntax errors are detected while interpreting or parsing source code. For example, a SyntaxError can occur if a closing brace (}) is left off when defining a Javascript function
+
 * type error
+The TypeError object represents an error when an operation could not be performed, typically (but not exclusively) when a value is not of the expected type. 
+
 * reference error
+The ReferenceError object represents an error when a variable that doesn't exist (or hasn't yet been initialized) in the current scope is referenced. ReferenceError is a serializable object, so it can be cloned with structuredClone() or copied between Workers using postMessage() .
+
 * internal error
+The InternalError object indicates an error that occurred internally in the JavaScript engine.
+
 * range error
+A RangeError is thrown when trying to pass a value as an argument to a function that does not allow a range that includes the value. This can be encountered when: passing a value that is not one of the allowed string values to String.
 */
